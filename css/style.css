@@ -1,6 +1,27 @@
 @import url(reset.css);
 @import url(fonts.css);
-
+.next-title{
+	color: #2f302c;
+	text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Lato",sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.text{
+	color: #7e7f7c;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Lato",sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+}
 .title .main-title {
 	font-family: "Lato", sans-serif;
 	color: #2f302c;
@@ -12,205 +33,35 @@
 	margin-top: 82px;
 	margin-bottom: 72px;
 	text-align: center;
+  	max-width: auto;
+  	min-height: auto;
+	/* background-color: aquamarine; */
+	box-sizing:border-box;
 }
 .sections{
-	margin-top: 5%;
-	margin-left:15%;
-	margin-right:15%;
+	max-width: 1180px;
+	margin: 72px auto;
+	margin-bottom: 82px;
 	text-align: center;
-
+	/* background-color: tomato; */
+	box-sizing:border-box;
+	width: 100%;
 }
-.section-1{
-	max-width: 348px;
-	margin-left:-5%
+.section-1, .section-2, .section-3, .section-4, .section-5, .section-6{
+	display: inline-block;
+	width: 348px;
+	height: 208px;
+	margin-bottom: 68px;
+	/* background-color: lightgreen; */
 }
-.section-1 .next-title 
-{
-	color: #2f302c;
-	padding-top: 5%;
-	text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Lato",sans-serif;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-transform: none;
+.section-1, .section-4{
+	/* background-color: aqua; */
+	margin-right: 3%;
 }
-.section-1 .text {
-	color: #7e7f7c;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Lato",sans-serif;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-transform: none;
-  text-align: center;
-  padding-top: 5%;
+.section-3, .section-6{
+	/* background-color: black; */
+	margin-left: 3%;
 }
-.section-2{
-
-	max-width: 348px;
-	text-align: center;
-	margin-left:348px;
-	margin-top: -194px;
-}
-.section-2 .next-title 
-{
-	color: #2f302c;
-	padding-top: 5%;
-	text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Lato",sans-serif;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-transform: none;
-}
-.section-2 .text {
-	color: #7e7f7c;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Lato",sans-serif;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-transform: none;
-  text-align: center;
-  padding-top: 5%;
-}
-.section-3{
-
-	max-width: 348px;
-	text-align: center;
-	margin-left:696px;
-	margin-top: -194px;
-	margin-left: 73%;
-
-}
-.section-3 .next-title 
-{
-	color: #2f302c;
-	padding-top: 5%;
-	text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Lato",sans-serif;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-transform: none;
-}
-.section-3 .text {
-	color: #7e7f7c;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Lato",sans-serif;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-transform: none;
-  text-align: center;
-  padding-top: 5%;
-}
-.section-4{
-
-	max-width: 348px;
-	text-align: center;
-	margin-top: 68px;
-	margin-left:-5%;
-}
-.section-4 .next-title 
-{
-	color: #2f302c;
-	padding-top: 5%;
-	text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Lato",sans-serif;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-transform: none;
-}
-.section-4 .text {
-	color: #7e7f7c;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Lato",sans-serif;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-transform: none;
-  text-align: center;
-  padding-top: 5%;
-}
-.section-5{
-
-	max-width: 348px;
-	text-align: center;
-	margin-left:348px;
-	margin-top: -194px;
-}
-.section-5 .next-title 
-{
-	color: #2f302c;
-	padding-top: 5%;
-	text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Lato",sans-serif;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-transform: none;
-}
-.section-5 .text {
-	color: #7e7f7c;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Lato",sans-serif;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-transform: none;
-  text-align: center;
-  padding-top: 5%;
-}
-.section-6{
-
-	max-width: 348px;
-	text-align: center;
-
-	margin-top: -194px;
-	margin-left: 73%;
-;
-
-}
-.section-6 .next-title 
-{
-	color: #2f302c;
-	padding-top: 5%;
-	text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Lato",sans-serif;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-transform: none;
-}
-.section-6 .text {
-	color: #7e7f7c;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Lato",sans-serif;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-transform: none;
-  text-align: center;
-  padding-top: 5%;
+.image, .next-title{
+	margin-bottom:24px;
 }
